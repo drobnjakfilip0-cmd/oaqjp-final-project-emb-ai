@@ -1,0 +1,5 @@
+************* Module server
+server.py:54:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 9.41/10 (previous run: 2.94/10, +6.47)
