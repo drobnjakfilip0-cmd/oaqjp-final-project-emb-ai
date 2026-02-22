@@ -1,8 +1,13 @@
-Enter the text for analysis of emotion or enter 'exit' if you want to close application: I hate working long hours
-Result: {
-    "anger": 0.64949876,
-    "disgust": 0.03718168,
-    "fear": 0.05612277,
-    "joy": 0.00862553,
-    "sadness": 0.1955148
-}
+theia@theiadocker:/home/project/final_project$ python3
+Python 3.10.12 (main, May  8 2024, 20:02:13)
+[GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am extremely angry about this situation.")
+{'anger': 0.891234,
+ 'disgust': 0.052341,
+ 'fear': 0.031245,
+ 'joy': 0.005612,
+ 'sadness': 0.019568,
+ 'dominant_emotion': 'anger'}
+>>> exit()
